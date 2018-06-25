@@ -21,7 +21,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SimpleAnrActivity"></activity>
+        <activity android:name=".SimpleAnrActivity"
+            android:hardwareAccelerated="true">
+        </activity>
 
     </application>
 

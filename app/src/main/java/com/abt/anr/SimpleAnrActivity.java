@@ -8,7 +8,7 @@ import android.support.v7.app.AppCompatActivity;
  * broadcast10秒没有影响触屏或者按键操作，报anr
  * service20秒没有影响触屏或者按键操作，报anr
  */
-public class MainActivity extends AppCompatActivity {
+public class SimpleAnrActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
